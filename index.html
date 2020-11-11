@@ -51,8 +51,13 @@
             <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia </p>
         </div>
         <div class = "col-sm-12 col-md-6"></div>
-      <h2>"A lot of good, <br>
-        can come from a couple of errors"</h2>
+        <form name="myForm" action="" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname" required>
+            E-mail: <input type = "text" name="fmail" required>
+            Tlf: <input type="number" name="ftlf" required>
+            <input type="checkbox" name="fcheck"> Jeg giver hermed tilladelse til, at Nordlid må gemme og bruge min data til interne projekter. Jeg kan til hver en tid tilbagekalde min accept.
+            <input type="submit" value="Send">
+            </form> 
     </div>
     <div class="row">
         <div class = "col-sm-12 col-md-4">
@@ -75,8 +80,6 @@
         <div class = "col-sm-12 col-md-6">
             <img src="Img/social.png" alt="social">
         </div>
-      <h2>"A lot of good, <br>
-        can come from a couple of errors"</h2>
     </div>
 </div>
 </body>
