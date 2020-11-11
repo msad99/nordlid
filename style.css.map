@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,qFAA6E",
-"sources": ["SCSS/style.scss"],
+"mappings": "AAAQ,qFAA6E;ACCrF,UAAU;EACN,SAAS,EAAE,IAAI;;AAGnB,OAAO;ECDH,gBAAgB,ECHb,OAAe;EFMlB,UAAU,EAAE,MAAM;;AAStB,OAAO;EACH,KAAK,EAAE,IAAI;ECVX,gBAAgB,ECLZ,OAAa",
+"sources": ["SCSS/style.scss","SCSS/_main.scss","SCSS/_mixins.scss","SCSS/_variables.scss"],
 "names": [],
 "file": "style.css"
 }

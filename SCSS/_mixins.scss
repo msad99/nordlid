@@ -1,0 +1,16 @@
+@mixin whitefont{
+    color: $white;
+}
+@mixin bluebackground{
+    background-color: $blue;
+}
+@mixin footercolor{
+    background-color: $black;
+}
+@mixin validatecolor{
+    color: 9$validateColor;
+}
+@mixin fontfamily{
+    font-family: $font;
+    font-weight: 300;
+}
